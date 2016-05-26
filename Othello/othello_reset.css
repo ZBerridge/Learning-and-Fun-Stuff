@@ -1,0 +1,18 @@
+@font-face {
+	font-family: pixelartfont;
+	src: url(Assets/Fonts/PressStart2P.ttf);
+	}
+
+article, aside, figure, figcaption, footer, hgroup, header, section, nav {
+	display: block;
+	}
+	
+body * {
+	font-family: pixelartfont, Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	font-weight: inherit;
+	line-height: 1.2em;
+	list-style: none;
+	margin: 0px;
+	vertical-align: baseline;
+	}

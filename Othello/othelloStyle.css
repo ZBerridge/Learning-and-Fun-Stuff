@@ -1,0 +1,152 @@
+body {
+	font-family: pixelartfont, Verdana, sans-serif;
+	margin: 0px auto;
+	padding: 0px;
+	width: 100%;
+	min-width: 1000px;
+	max-width: 1500px;
+	background-color:white;
+	background-color: black;
+	background-image: url(Assets/BGImages/pixelcitybg.jpg);
+	background-position: bottom bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+
+header>hgroup>h1 {
+	margin-left: 15%;
+	/*
+	background-color: rgb(105, 96, 87);
+	background-color: rgba(100, 100, 100, 1.0);
+	*/
+	width: 70%; 
+	height: 100%;
+	color: white;
+	font-size: 80px;
+	text-align: center;
+	text-shadow: 0px 0px 25px blue;
+	}
+	
+header>hgroup>h2 {
+	color: rgb(200, 200, 200);
+	font-size: 18px;
+	text-align: center;
+	text-shadow: 0px 0px 10px blue;
+	margin-left: 15%;
+	margin-bottom: 5%;
+	/*
+	background-color: rgb(105, 96, 87);
+	background-color: rgba(100, 100, 100, 1.0);
+	*/
+	width: 70%; 
+	height: 100%;
+}
+
+div {
+	margin-top: 50px;
+	border: 1px solid white;
+	border-radius: 10px;
+	margin-left: 15%;
+	background-color: rgb(, 96, 87);
+	background-color: rgba(40, 40, 40, 1.0);
+	width: 70%; 
+	height: 91vh;
+}
+
+#othelloGrid {
+	border-collapse: collapse;
+	font-size: 11px;
+	margin: 0px auto;
+	clear: left;
+	float: none;
+	background-color: black;
+}
+#scoreBoard {
+	clear: left;
+	float: none;
+	border-collapse: collapse;
+	font-size: 14px;
+	margin: 10px auto;
+	margin-top: 20%;
+	margin-left: 34%;
+	text-shadow: 3px 3px 3px blue;
+	text-align: center;
+}
+
+#scoreBoard th {
+	width: 90px;
+	height: 60px;
+	border: 5px inset white;
+	color: white;
+	font-size: 18px;
+	background-color: black;
+}
+
+#scoreBoard td {
+	width: 90px;
+	height: 60px;
+	border: 5px inset white;
+	color: white;
+	font-size: 30px;
+	padding: 5px;
+	background-color: black;
+}
+
+#othelloGrid th {
+	display: none;
+}
+
+#othelloGrid td {
+	width: 60px;
+	height: 60px;
+	border: 10px solid black;
+	border-radius: 40px;
+	cursor: pointer;
+}
+
+#othelloGrid td.green {
+	background-color:green;
+}
+
+#othelloGrid td.white {
+	background-color:white;
+}
+
+#othelloGrid td.black {
+	background-color: rgb(30, 30, 60);
+}
+
+button {
+	width : 200px;
+	height: 70px;
+	background-color: rgb(100, 100, 100);
+	font: black;
+	font-size: 12pt;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	clear: left;
+	float: left;
+	color: white;
+	text-shadow: 3px 3px 3px blue;
+}
+
+button.white {
+	background-color: white;
+	color: black;
+}
+
+button.black {
+	background-color: black;
+	color: white;
+}
+
+#newGame {
+	clear: left;
+	float: left;
+}
+
+#skipTurn {
+	clear: right;
+	float: right;
+}
